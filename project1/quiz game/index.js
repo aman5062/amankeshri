@@ -83,8 +83,8 @@ submitbtn.addEventListener('click', ()=>
     if(currentQuestion==quizdata.length)
         //kindly check the code results are not showing properly
     {
-        document.getElementById('quizdiv').innerHTML= '<h1>total score is= ${quizScore} out of ${quizdata.length}</h1>'
+        document.getElementById('quizdiv').innerHTML= '<h1>total score is='+ quizScore +' out of' + quizdata.length +'</h1>'
     }else{
         loadQuiz()
     }
-})
+}) 
